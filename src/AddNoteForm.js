@@ -14,9 +14,9 @@ const AddNoteForm = ({ onAdd }) => {
 
   return (
     <form onSubmit={handleSubmit} id="forms">
-      <input
+      <textarea
         type="text"
-        placeholder="Enter your note"
+        placeholder='Ente your notes content here'
         value={text}
         onChange={(e) => setText(e.target.value)}
         id="input"

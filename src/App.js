@@ -29,8 +29,8 @@ const App = () => {
   };
 
   return (
-    <div className="app">
-      <h1>Notes App</h1>
+    <div className="app" >
+      <h1 style={{marginLeft : "30px", textAlign : "center"}}>Notes App</h1>
       <AddNoteForm onAdd={handleAddNote} />
       <NoteList notes={notes} onDelete={handleDeleteNote} />
     </div>
